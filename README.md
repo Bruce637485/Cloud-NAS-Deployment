@@ -76,6 +76,8 @@ if __name__ == '__main__':
     app.run(host='0.0.0.0', port=443, ssl_context=('cert.pem', 'key.pem'))
 ```
 
+![NAS pic](IMG_3852.jpeg)
+
 ### 🌍 Remote Access (Optional Advanced Step)
 To make this accessible outside your local network:
 1. Set a DHCP Reservation for your NAS in your router.
